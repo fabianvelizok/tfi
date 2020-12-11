@@ -3,3 +3,9 @@
   font-size: 2rem;
   text-decoration: none;
 }
+
+.logo__img {
+  padding: 1rem;
+  padding-left: 0;
+  width: 6.25rem;
+}

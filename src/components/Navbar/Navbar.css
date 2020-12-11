@@ -12,6 +12,10 @@
 }
 
 .navbar__list-link {
-  /* color: #fff; */
+  color: #7291f0;
   text-decoration: none;
+}
+
+.navbar__list-link:hover {
+  color: #4169e1;
 }

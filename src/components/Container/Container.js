@@ -5,7 +5,7 @@ import './Container.css';
 function Container(props) {
   const { children, className } = props;
 
-  const classes = cx(['navbar', className]);
+  const classes = cx(['container', className]);
 
   return (
     <div className={classes} >

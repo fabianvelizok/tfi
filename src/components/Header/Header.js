@@ -7,17 +7,17 @@ import Navbar from "../Navbar/Navbar";
 import "./Header.css";
 
 function Header(props) {
-  const { className, } = props;
+  const { className } = props;
 
   const classes = cx(['header', className]);
 
   return (
-    <Container>
-      <header className={classes}>
+    <header>
+      <Container className={classes}>
         <Logo />
         <Navbar />
-      </header>
-    </Container>
+      </Container>
+    </header>
   );
 }
 

@@ -1,4 +1,6 @@
 import cx from 'classnames';
+import { Link } from "react-router-dom";
+import logo from "../../img/logo.png";
 
 import './Logo.css';
 
@@ -8,9 +10,9 @@ function Logo(props) {
   const classes = cx(['logo', className]);
 
   return (
-    <a href="/" className={classes}>
-      Logo
-    </a>
+    <Link to="/" className={classes}>
+      <img alt="Logo" className="logo__img" src={logo} />
+    </Link>
   );
 };
 
