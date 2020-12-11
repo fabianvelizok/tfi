@@ -8,7 +8,7 @@ import Stage3 from "../Stage3/Stage3";
 import "./App.css";
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";

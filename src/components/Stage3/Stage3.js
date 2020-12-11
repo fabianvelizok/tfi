@@ -9,7 +9,7 @@ function Stage3(props) {
 
   return (
     <div className={classes} >
-      Etapa 3 - Contenido
+      <h2>Etapa 3</h2>
     </div>
   );
 };

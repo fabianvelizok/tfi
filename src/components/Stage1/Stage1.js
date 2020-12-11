@@ -1,5 +1,6 @@
 import cx from "classnames";
 import { files } from "./Stage1.constants";
+import File from "../File/File";
 
 import './Stage1.css';
 
@@ -12,14 +13,15 @@ function Stage1(props) {
     <div className={classes} >
       <h2>Etapa 1</h2>
 
-      {files.map(file => {
-        return (
-          <div>
-            <h3>{file.title}</h3>
-            <iframe src={file.path}></iframe>
-          </div>
-        )
-      })}
+      <ul className="stage__list">
+        {files.map(file => {
+          return (
+            <li key={file.title}>
+              <File {...file} />
+            </li>
+          )
+        })}
+      </ul>
     </div>
   );
 };

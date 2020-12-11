@@ -5,7 +5,7 @@ import logo from "../../img/logo.png";
 import './Logo.css';
 
 function Logo(props) {
-  const { className, ...rest } = props;
+  const { className } = props;
 
   const classes = cx(['logo', className]);
 

@@ -9,7 +9,7 @@ function Home(props) {
 
   return (
     <div className={classes} >
-      Bienvenido
+      <h2>Bienvenido</h2>
     </div>
   );
 };
