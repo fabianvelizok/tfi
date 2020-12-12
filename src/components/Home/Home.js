@@ -5,7 +5,7 @@ import './Home.css';
 function Home(props) {
   const { className } = props;
 
-  const classes = cx(['stage', className]);
+  const classes = cx(['home', className]);
 
   return (
     <div className={classes} >

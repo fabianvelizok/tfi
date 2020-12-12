@@ -1,0 +1,41 @@
+#modal-root {
+  position: relative;
+  z-index: 999;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.85);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.modal__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+}
+
+.modal__title {
+  margin: 1rem 0;
+}
+
+.modal__close {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.modal__content {
+  height: calc(100vh - 55px);
+  position: relative;
+}

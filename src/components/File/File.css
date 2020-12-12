@@ -1,3 +1,11 @@
 .file {
   cursor: pointer;
 }
+
+.file:hover .iconImg {
+  fill: #D93025;
+}
+
+.file:hover .iconDoc {
+  fill: #4285F4;
+}
