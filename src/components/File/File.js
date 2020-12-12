@@ -17,7 +17,7 @@ function File(props) {
   return (
     <div>
       <div className={classes} onClick={() => { setIsModalOpen(!isModalOpen) }}>
-        <h3>{title}</h3>
+        <h3 className="file__title">{title}</h3>
         {type === "img" ? <IconImg /> : <IconDoc />}
       </div>
 

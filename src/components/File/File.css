@@ -2,6 +2,11 @@
   cursor: pointer;
 }
 
+.file__title {
+  min-height: 50px;
+  max-width: 225px;
+}
+
 .file:hover .iconImg {
   fill: #D93025;
 }
