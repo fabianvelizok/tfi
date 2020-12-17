@@ -3,19 +3,20 @@ import cx from "classnames";
 import './Container.css';
 
 function Container(props) {
-  const { children, className } = props;
+  const { children, className, Tag } = props;
 
   const classes = cx(['container', className]);
 
   return (
-    <div className={classes} >
+    <Tag className={classes} >
       {children}
-    </div>
+    </Tag>
   );
 };
 
 Container.defaultProps = {
-  className: undefined
+  className: undefined,
+  Tag: 'div'
 }
 
 export default Container;

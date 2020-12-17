@@ -12,8 +12,8 @@ function Header(props) {
   const classes = cx(['header', className]);
 
   return (
-    <header>
-      <Container className={classes}>
+    <header className={classes}>
+      <Container className="header__container">
         <Logo />
         <Navbar />
       </Container>

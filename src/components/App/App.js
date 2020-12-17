@@ -1,5 +1,6 @@
 import Container from "../Container/Container";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 import Home from "../Home/Home";
 import Stage1 from "../Stage1/Stage1";
 import Stage2 from "../Stage2/Stage2";
@@ -15,11 +16,11 @@ import {
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <div>
+    <Router>
+      <div className="app">
         <Header className="app__header" />
 
-        <Container>
+        <Container className="app__container" Tag="main">
           <Switch>
             <Route path="/stage-1">
               <Stage1 />
@@ -35,6 +36,8 @@ function App() {
             </Route>
           </Switch>
         </Container>
+
+        <Footer />
       </div>
     </Router>
   );

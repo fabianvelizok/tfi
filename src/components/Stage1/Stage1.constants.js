@@ -7,7 +7,7 @@ export const files = [
   {
     type: "img",
     path: "https://drive.google.com/file/d/1Gd20Ak9WTwNU5CANefL8i8P7Y00KaBUz/preview",
-    title: "Organigrama Sombreado"
+    title: "Organigrama (procesos)"
   },
   {
     type: "doc",
