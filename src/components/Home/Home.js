@@ -1,11 +1,16 @@
+import { useEffect } from "react";
 import cx from "classnames";
 
 import './Home.css';
 
 function Home(props) {
-  const { className } = props;
+  const { className, title } = props;
 
   const classes = cx(['home', className]);
+
+  useEffect(() => {
+    document.title = `TFI | ${title}`;
+  }, [title]);
 
   return (
     <div className={classes}>

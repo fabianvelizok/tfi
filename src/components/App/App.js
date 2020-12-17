@@ -23,16 +23,16 @@ function App() {
         <Container className="app__container" Tag="main">
           <Switch>
             <Route path="/stage-1">
-              <Stage1 />
+              <Stage1 title="Etapa 1" />
             </Route>
             <Route path="/stage-2">
-              <Stage2 />
+              <Stage2 title="Etapa 2" />
             </Route>
             <Route path="/stage-3">
-              <Stage3 />
+              <Stage3 title="Etapa 3" />
             </Route>
             <Route path="/">
-              <Home />
+              <Home title="Inicio" />
             </Route>
           </Switch>
         </Container>

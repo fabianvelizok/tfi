@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 0.75rem;
 }
 
 .footer__container {
@@ -9,7 +10,6 @@
 }
 
 .footer__copy {
-  font-size: 1rem;
   margin: .5rem 0;
   color: #E8550F;
   font-weight: bold;

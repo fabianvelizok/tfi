@@ -1,7 +1,6 @@
 import cx from "classnames";
 
 import Container from "../Container/Container";
-import Logo from "../Logo/Logo";
 
 import "./Footer.css";
 
