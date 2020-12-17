@@ -1,1 +1,21 @@
-.home {}
+.home__center {
+  text-align: center;
+}
+
+.home__inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home__headings {
+  margin-bottom: 3rem;
+}
+
+.home__subsection {
+  margin: .5rem 0;
+}
+
+.home__list-item {
+  margin-bottom: .5rem;
+}
