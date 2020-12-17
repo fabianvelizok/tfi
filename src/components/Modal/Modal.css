@@ -33,6 +33,12 @@
   border: none;
   color: white;
   cursor: pointer;
+  transition: color .25s;
+  font-weight: bold;
+}
+
+.modal__close:hover {
+  color: gray;
 }
 
 .modal__content {

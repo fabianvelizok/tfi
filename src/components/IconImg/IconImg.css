@@ -1,3 +1,4 @@
 .iconImg {
   fill: gray;
+  transition: fill .25s;
 }

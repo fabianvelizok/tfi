@@ -14,8 +14,9 @@
 .navbar__list-link {
   color: #7291f0;
   text-decoration: none;
+  transition: color .25s;
 }
 
 .navbar__list-link:hover {
-  color: #4169e1;
+  color: #4a148c;
 }
