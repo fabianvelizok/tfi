@@ -15,11 +15,6 @@ export const files = [
     title: "Informe de viabilidad"
   },
   {
-    type: "img",
-    path: "https://drive.google.com/file/d/1kiR1TWCQh7oaVgYvPTaU0TVP7bU1C9vf/preview",
-    title: "Nota final de confirmación"
-  },
-  {
     type: "doc",
     path: "https://docs.google.com/document/d/e/2PACX-1vSdxoTN3uZ9Y9Fx5w3geAa4w9WuZ2Hl0oVrgXBvUCOjhb7aCs8JuZBcX2jmrvpum8Lj-E9Zp6sl503s/pub?embedded=true",
     title: "Conclusión"

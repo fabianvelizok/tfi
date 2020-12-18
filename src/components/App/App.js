@@ -5,6 +5,7 @@ import Home from "../Home/Home";
 import Stage1 from "../Stage1/Stage1";
 import Stage2 from "../Stage2/Stage2";
 import Stage3 from "../Stage3/Stage3";
+import Annexes from "../Annexes/Annexes";
 
 import "./App.css";
 
@@ -30,6 +31,9 @@ function App() {
             </Route>
             <Route path="/stage-3">
               <Stage3 title="Etapa 3" />
+            </Route>
+            <Route path="/annexes">
+              <Annexes title="Anexos" />
             </Route>
             <Route path="/">
               <Home title="Inicio" />

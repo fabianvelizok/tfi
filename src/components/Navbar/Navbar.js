@@ -12,24 +12,29 @@ const Navbar = props => {
   return (
     <nav className={classes}>
       <ul className="navbar__list">
-        <li className="navbar__list-item navbar__list-item--hidden">
+        <li className="navbar__list-item">
           <Link className="navbar__list-link" to="/">
             Inicio
           </Link>
         </li>
-        <li className="navbar__list-item navbar__list-item--hidden">
+        <li className="navbar__list-item">
           <Link className="navbar__list-link" to="/stage-1">
             Etapa 1
           </Link>
         </li>
-        <li className="navbar__list-item navbar__list-item--hidden">
+        <li className="navbar__list-item">
           <Link className="navbar__list-link" to="/stage-2">
             Etapa 2
           </Link>
         </li>
-        <li className="navbar__list-item navbar__list-item--hidden">
+        <li className="navbar__list-item">
           <Link className="navbar__list-link" to="/stage-3">
             Etapa 3
+          </Link>
+        </li>
+        <li className="navbar__list-item">
+          <Link className="navbar__list-link" to="/annexes">
+            Anexos
           </Link>
         </li>
       </ul>
