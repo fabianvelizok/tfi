@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import cx from "classnames";
 import { files } from "./Stage3.constants";
 import File from "../File/File";
+import EndButton from "../EndButton/EndButton";
 
 import './Stage3.css';
 
@@ -27,6 +28,8 @@ function Stage3(props) {
           )
         })}
       </ul>
+      
+      <EndButton />
     </div>
   );
 };

@@ -1,0 +1,41 @@
+.endButton {
+  background: #E8550F;
+  border: none;
+  color: white;
+  max-width: 16rem;
+  padding: 1rem;
+  width: 100%;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.endButton__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto 0;
+}
+
+.endButton__thanks {
+  color: #ffecb3;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.animation-pulse {
+  animation: animation-pulse 1.5s infinite;
+  transform: scale(1);
+}
+
+@keyframes animation-pulse {
+  0% {
+    transform: scale(0.95);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
+}
