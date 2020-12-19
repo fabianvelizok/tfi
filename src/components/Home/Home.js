@@ -24,7 +24,7 @@ function Home(props) {
 
       <div className="home__inline">
         <h4 className="home__subsection">Docentes:&nbsp;</h4>
-        <span>Ing. Liliana del Prado e Ing. Silvana Marsiglia</span>
+        <span>Ing. Liliana del Prado y Mg. Silvana Marsiglia</span>
       </div>
       <div className="home__inline">
         <h4 className="home__subsection">Materia:&nbsp;</h4>

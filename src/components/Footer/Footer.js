@@ -12,8 +12,8 @@ function Footer(props) {
   return (
     <footer className="footer__container">
       <Container className={classes}>
-        <h3 className="footer__copy">TFI Grupo 2</h3>
-        <span>©2020 - Todos los derechos reservados.</span>
+        <h3 className="footer__copy">TFI Grupo 3</h3>
+        <span>©2020 - Todos los derechos reservados - Prohibida la copia o plagio.</span>
       </Container>
     </footer>
   );
